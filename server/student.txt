@@ -1,0 +1,24 @@
+DataBase => mongodb
+
+DB name => Student
+Table(collection) name => login
+
+connection url : mongodb+srv://admin:<password>@cluster0.ah1c4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+
+http://localhost:8080/login
+
+{
+    "uname":"admin",
+    "upwd" :"admin"
+}
+
+*****************************************
+student-login
+        src
+            login.tsx
+
+            index.tsx
+        public
+            index.html
+*****************************************
+        
